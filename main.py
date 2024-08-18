@@ -27,3 +27,18 @@ class Warrior():
         print(f"Warriors power - {self.power}")
         print(f"Warriors stamina - {self.stamina}")
 
+war1 = Warrior("Ragnar", 76, 54, "blond")
+war2 = Warrior("Loki", 53, 80, "brown")
+
+print(war2.stamina)
+print(war2.power)
+
+war2.sleep()
+war2.eat()
+war2.hit()
+war2.walk()
+war2.info()
+
+
+
+
