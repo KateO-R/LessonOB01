@@ -48,3 +48,4 @@ manager.mark_task_completed(1)
 print("\nOngoing tasks:")
 for task in manager.get_pending_tasks():
     print(task)
+    
